@@ -22,11 +22,11 @@ ConsoleApplication1.cpp(226): warning C4305: "=": obcięcie z "int" do "float"
 ConsoleApplication1.cpp(200): warning C4101: "min": lokalna zmienna, do której nie istnieje odwołanie
 ConsoleApplication1.cpp(269): warning C4244: "=": konwersja z "float" do "int", możliwa utrata danych
 ConsoleApplication1.cpp(389): warning C4244: "=": konwersja z "float" do "MPI_Datatype", możliwa utrata danych
-ConsoleApplication1.cpp(527): warning C4244: "argument": konwersja z "int" do "float", możliwa utrata danych
-ConsoleApplication1.cpp(570): warning C4244: "=": konwersja z "int" do "float", możliwa utrata danych
-ConsoleApplication1.cpp(577): warning C4305: "=": obcięcie z "int" do "float"
-ConsoleApplication1.cpp(641): warning C4244: "inicjowanie": konwersja z "float" do "int", możliwa utrata danych
-ConsoleApplication1.cpp(646): warning C4244: "inicjowanie": konwersja z "float" do "int", możliwa utrata danych
+ConsoleApplication1.cpp(524): warning C4244: "argument": konwersja z "int" do "float", możliwa utrata danych
+ConsoleApplication1.cpp(567): warning C4244: "=": konwersja z "int" do "float", możliwa utrata danych
+ConsoleApplication1.cpp(574): warning C4305: "=": obcięcie z "int" do "float"
+ConsoleApplication1.cpp(638): warning C4244: "inicjowanie": konwersja z "float" do "int", możliwa utrata danych
+ConsoleApplication1.cpp(643): warning C4244: "inicjowanie": konwersja z "float" do "int", możliwa utrata danych
 C:\Program Files\flann\include\flann/util/lsh_table.h(260): warning C4267: "=": konwersja z "size_t" do "unsigned int", możliwa utrata danych
   C:\Program Files\flann\include\flann/util/lsh_table.h(258): note: podczas kompilowania funkcji członkowskiej „<Nieznany>” klasy klasa <Nieznany>
   C:\Program Files\flann\include\flann/util/lsh_table.h(331): note: zobacz odwołanie do funkcji szablon; wystąpienie „void flann::lsh::LshTable<unsigned char>::initialize(::size_t)” jest kompilowane
@@ -668,7 +668,7 @@ C:\Program Files\boost\boost_1_66_0\boost/mpi/detail/binary_buffer_iprimitive.hp
           [
               T=flann::Matrix<float>
           ]
-  ConsoleApplication1.cpp(499): note: zobacz odwołanie do funkcji szablon; wystąpienie „void boost::mpi::broadcast<flann::Matrix<float>>(const boost::mpi::communicator &,T &,int)” jest kompilowane
+  ConsoleApplication1.cpp(496): note: zobacz odwołanie do funkcji szablon; wystąpienie „void boost::mpi::broadcast<flann::Matrix<float>>(const boost::mpi::communicator &,T &,int)” jest kompilowane
           with
           [
               T=flann::Matrix<float>
@@ -914,8 +914,8 @@ C:\Program Files\boost\boost_1_66_0\boost/mpi/detail/binary_buffer_oprimitive.hp
           ]
      Trwa tworzenie biblioteki C:\Users\macie\source\repos\ConsoleApplication1\x64\Release\ConsoleApplication1.lib i obiektu C:\Users\macie\source\repos\ConsoleApplication1\x64\Release\ConsoleApplication1.exp
   Trwa generowanie kodu
-  70 of 3617 functions ( 1.9%) were compiled, the rest were copied from previous compilation.
+  67 of 3617 functions ( 1.9%) were compiled, the rest were copied from previous compilation.
     0 functions were new in current compilation
-    78 functions had inline decision re-evaluated but remain unchanged
+    23 functions had inline decision re-evaluated but remain unchanged
   Zakończono generowanie kodu
   ConsoleApplication1.vcxproj -> C:\Users\macie\source\repos\ConsoleApplication1\x64\Release\ConsoleApplication1.exe
