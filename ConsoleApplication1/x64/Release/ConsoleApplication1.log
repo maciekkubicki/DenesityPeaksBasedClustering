@@ -1,1 +1,921 @@
-﻿
+﻿  ConsoleApplication1.cpp
+C:\Program Files\boost\boost_1_66_0\boost/mpi/detail/mpi_datatype_primitive.hpp(61): warning C4267: "argument": konwersja z "size_t" do "int", możliwa utrata danych
+C:\Program Files\boost\boost_1_66_0\boost/mpi/detail/mpi_datatype_primitive.hpp(80): warning C4267: "argument": konwersja z "size_t" do "int", możliwa utrata danych
+C:\Program Files\boost\boost_1_66_0\boost/mpi/detail/packed_iprimitive.hpp(62): warning C4267: "argument": konwersja z "size_t" do "int", możliwa utrata danych
+C:\Program Files\boost\boost_1_66_0\boost/mpi/detail/packed_iprimitive.hpp(106): warning C4267: "argument": konwersja z "size_t" do "int", możliwa utrata danych
+C:\Program Files\boost\boost_1_66_0\boost/mpi/detail/binary_buffer_iprimitive.hpp(64): warning C4267: "argument": konwersja z "size_t" do "int", możliwa utrata danych
+C:\Program Files\boost\boost_1_66_0\boost/mpi/detail/packed_oprimitive.hpp(52): warning C4267: "argument": konwersja z "size_t" do "int", możliwa utrata danych
+C:\Program Files\boost\boost_1_66_0\boost/mpi/detail/packed_oprimitive.hpp(96): warning C4267: "inicjowanie": konwersja z "size_t" do "int", możliwa utrata danych
+C:\Program Files\boost\boost_1_66_0\boost/mpi/detail/packed_oprimitive.hpp(100): warning C4267: "argument": konwersja z "size_t" do "int", możliwa utrata danych
+C:\Program Files\boost\boost_1_66_0\boost/mpi/detail/binary_buffer_oprimitive.hpp(53): warning C4267: "argument": konwersja z "size_t" do "int", możliwa utrata danych
+C:\Program Files\flann\include\flann/util/saving.h(92): warning C4267: "inicjowanie": konwersja z "size_t" do "int", możliwa utrata danych
+C:\Program Files\flann\include\flann/util/lsh_table.h(417): warning C4267: "argument": konwersja z "size_t" do "std::_Vbase", możliwa utrata danych
+C:\Program Files\flann\include\flann/util/lsh_table.h(425): warning C4267: "argument": konwersja z "size_t" do "std::_Vbase", możliwa utrata danych
+ConsoleApplication1.cpp(74): warning C4244: "=": konwersja z "int" do "float", możliwa utrata danych
+ConsoleApplication1.cpp(85): warning C4244: "return": konwersja z "float" do "int", możliwa utrata danych
+ConsoleApplication1.cpp(87): warning C4244: "argument": konwersja z "float" do "int", możliwa utrata danych
+ConsoleApplication1.cpp(98): warning C4244: "argument": konwersja z "float" do "int", możliwa utrata danych
+ConsoleApplication1.cpp(98): warning C4244: "=": konwersja z "int" do "float", możliwa utrata danych
+ConsoleApplication1.cpp(137): warning C4305: "inicjowanie": obcięcie z "int" do "float"
+ConsoleApplication1.cpp(219): warning C4244: "=": konwersja z "int" do "float", możliwa utrata danych
+ConsoleApplication1.cpp(226): warning C4305: "=": obcięcie z "int" do "float"
+ConsoleApplication1.cpp(200): warning C4101: "min": lokalna zmienna, do której nie istnieje odwołanie
+ConsoleApplication1.cpp(269): warning C4244: "=": konwersja z "float" do "int", możliwa utrata danych
+ConsoleApplication1.cpp(389): warning C4244: "=": konwersja z "float" do "MPI_Datatype", możliwa utrata danych
+ConsoleApplication1.cpp(527): warning C4244: "argument": konwersja z "int" do "float", możliwa utrata danych
+ConsoleApplication1.cpp(570): warning C4244: "=": konwersja z "int" do "float", możliwa utrata danych
+ConsoleApplication1.cpp(577): warning C4305: "=": obcięcie z "int" do "float"
+ConsoleApplication1.cpp(641): warning C4244: "inicjowanie": konwersja z "float" do "int", możliwa utrata danych
+ConsoleApplication1.cpp(646): warning C4244: "inicjowanie": konwersja z "float" do "int", możliwa utrata danych
+C:\Program Files\flann\include\flann/util/lsh_table.h(260): warning C4267: "=": konwersja z "size_t" do "unsigned int", możliwa utrata danych
+  C:\Program Files\flann\include\flann/util/lsh_table.h(258): note: podczas kompilowania funkcji członkowskiej „<Nieznany>” klasy klasa <Nieznany>
+  C:\Program Files\flann\include\flann/util/lsh_table.h(331): note: zobacz odwołanie do funkcji szablon; wystąpienie „void flann::lsh::LshTable<unsigned char>::initialize(::size_t)” jest kompilowane
+  C:\Program Files\flann\include\flann/util/lsh_table.h(329): note: zobacz odwołanie do klasy klasa szablon; wystąpienie „flann::lsh::LshTable<unsigned char>” jest kompilowane
+  C:\Program Files\boost\boost_1_66_0\boost/asio/use_future.hpp(138): note: zobacz odwołanie do klasy klasa szablon; wystąpienie „boost::asio::use_future_t<std::allocator<void>>::std_allocator_void” jest kompilowane
+  C:\Program Files\boost\boost_1_66_0\boost/asio/use_future.hpp(146): note: zobacz odwołanie do klasy klasa szablon; wystąpienie „boost::asio::use_future_t<std::allocator<void>>” jest kompilowane
+C:\Program Files\flann\include\flann/algorithms/nn_index.h(335): warning C4267: "+=": konwersja z "size_t" do "int", możliwa utrata danych
+  C:\Program Files\flann\include\flann/algorithms/nn_index.h(321): note: podczas kompilowania funkcji członkowskiej „<Nieznany>” klasy klasa <Nieznany>
+  C:\Program Files\flann\include\flann/flann.hpp(258): note: zobacz odwołanie do klasy klasa szablon; wystąpienie „flann::NNIndex<Distance>” jest kompilowane
+          with
+          [
+              Distance=flann::L2<float>
+          ]
+  C:\Program Files\flann\include\flann/flann.hpp(257): note: podczas kompilowania funkcji członkowskiej „<Nieznany>” klasy klasa <Nieznany>
+  ConsoleApplication1.cpp(294): note: zobacz odwołanie do funkcji szablon; wystąpienie „int flann::Index<flann::L2<float>>::radiusSearch(const flann::Matrix<float> &,flann::Matrix<int> &,flann::Matrix<float> &,float,const flann::SearchParams &)” jest kompilowane
+  ConsoleApplication1.cpp(203): note: zobacz odwołanie do klasy klasa szablon; wystąpienie „flann::Index<flann::L2<float>>” jest kompilowane
+  C:\Program Files\boost\boost_1_66_0\boost/bind/placeholders.hpp(54): note: zobacz odwołanie do klasy klasa szablon; wystąpienie „boost::arg<9>” jest kompilowane
+  C:\Program Files\boost\boost_1_66_0\boost/bind/placeholders.hpp(53): note: zobacz odwołanie do klasy klasa szablon; wystąpienie „boost::arg<8>” jest kompilowane
+  C:\Program Files\boost\boost_1_66_0\boost/bind/placeholders.hpp(52): note: zobacz odwołanie do klasy klasa szablon; wystąpienie „boost::arg<7>” jest kompilowane
+  C:\Program Files\boost\boost_1_66_0\boost/bind/placeholders.hpp(51): note: zobacz odwołanie do klasy klasa szablon; wystąpienie „boost::arg<6>” jest kompilowane
+  C:\Program Files\boost\boost_1_66_0\boost/bind/placeholders.hpp(50): note: zobacz odwołanie do klasy klasa szablon; wystąpienie „boost::arg<5>” jest kompilowane
+  C:\Program Files\boost\boost_1_66_0\boost/bind/placeholders.hpp(49): note: zobacz odwołanie do klasy klasa szablon; wystąpienie „boost::arg<4>” jest kompilowane
+  C:\Program Files\boost\boost_1_66_0\boost/bind/placeholders.hpp(48): note: zobacz odwołanie do klasy klasa szablon; wystąpienie „boost::arg<3>” jest kompilowane
+  C:\Program Files\boost\boost_1_66_0\boost/bind/placeholders.hpp(47): note: zobacz odwołanie do klasy klasa szablon; wystąpienie „boost::arg<2>” jest kompilowane
+  C:\Program Files\boost\boost_1_66_0\boost/bind/placeholders.hpp(46): note: zobacz odwołanie do klasy klasa szablon; wystąpienie „boost::arg<1>” jest kompilowane
+C:\Program Files\flann\include\flann/algorithms/nn_index.h(349): warning C4267: "+=": konwersja z "size_t" do "int", możliwa utrata danych
+C:\Program Files\flann\include\flann/algorithms/nn_index.h(362): warning C4267: "+=": konwersja z "size_t" do "int", możliwa utrata danych
+C:\Program Files\flann\include\flann/algorithms/nn_index.h(249): warning C4267: "=": konwersja z "size_t" do "int", możliwa utrata danych
+  C:\Program Files\flann\include\flann/algorithms/nn_index.h(239): note: podczas kompilowania funkcji członkowskiej „<Nieznany>” klasy klasa <Nieznany>
+  C:\Program Files\flann\include\flann/flann.hpp(258): note: zobacz odwołanie do funkcji szablon; wystąpienie „int flann::NNIndex<Distance>::radiusSearch(const flann::Matrix<float> &,flann::Matrix<int> &,flann::Matrix<float> &,float,const flann::SearchParams &)” jest kompilowane
+          with
+          [
+              Distance=flann::L2<float>
+          ]
+C:\Program Files\flann\include\flann/algorithms/nn_index.h(257): warning C4267: "+=": konwersja z "size_t" do "int", możliwa utrata danych
+C:\Program Files\flann\include\flann/algorithms/nn_index.h(270): warning C4267: "+=": konwersja z "size_t" do "int", możliwa utrata danych
+C:\Program Files\flann\include\flann/algorithms/nn_index.h(286): warning C4267: "+=": konwersja z "size_t" do "int", możliwa utrata danych
+C:\Program Files\flann\include\flann/algorithms/nn_index.h(189): warning C4267: "+=": konwersja z "size_t" do "int", możliwa utrata danych
+  C:\Program Files\flann\include\flann/algorithms/nn_index.h(161): note: podczas kompilowania funkcji członkowskiej „<Nieznany>” klasy klasa <Nieznany>
+C:\Program Files\flann\include\flann/algorithms/nn_index.h(201): warning C4267: "+=": konwersja z "size_t" do "int", możliwa utrata danych
+C:\Program Files\flann\include\flann/algorithms/nn_index.h(111): warning C4267: "+=": konwersja z "size_t" do "int", możliwa utrata danych
+  C:\Program Files\flann\include\flann/algorithms/nn_index.h(84): note: podczas kompilowania funkcji członkowskiej „<Nieznany>” klasy klasa <Nieznany>
+  C:\Program Files\flann\include\flann/flann.hpp(221): note: zobacz odwołanie do funkcji szablon; wystąpienie „int flann::NNIndex<Distance>::knnSearch(const flann::Matrix<float> &,flann::Matrix<int> &,flann::Matrix<float> &,::size_t,const flann::SearchParams &)” jest kompilowane
+          with
+          [
+              Distance=flann::L2<float>
+          ]
+C:\Program Files\flann\include\flann/algorithms/nn_index.h(120): warning C4267: "+=": konwersja z "size_t" do "int", możliwa utrata danych
+C:\Program Files\flann\include\flann/util/result_set.h(186): warning C4267: "=": konwersja z "size_t" do "int", możliwa utrata danych
+  C:\Program Files\flann\include\flann/util/result_set.h(183): note: podczas kompilowania funkcji członkowskiej „<Nieznany>” klasy klasa <Nieznany>
+  C:\Program Files\flann\include\flann/algorithms/nn_index.h(200): note: zobacz odwołanie do funkcji szablon; wystąpienie „void flann::KNNSimpleResultSet<float>::copy(int *,DistanceType *,::size_t,bool)” jest kompilowane
+          with
+          [
+              DistanceType=float
+          ]
+  C:\Program Files\flann\include\flann/algorithms/nn_index.h(193): note: zobacz odwołanie do klasy klasa szablon; wystąpienie „flann::KNNSimpleResultSet<float>” jest kompilowane
+  C:\Program Files\flann\include\flann/algorithms/nn_index.h(161): note: podczas kompilowania funkcji członkowskiej „<Nieznany>” klasy klasa <Nieznany>
+C:\Program Files\flann\include\flann/util/result_set.h(407): warning C4267: "=": konwersja z "size_t" do "int", możliwa utrata danych
+  C:\Program Files\flann\include\flann/util/result_set.h(393): note: podczas kompilowania funkcji członkowskiej „<Nieznany>” klasy klasa <Nieznany>
+  C:\Program Files\flann\include\flann/algorithms/nn_index.h(188): note: zobacz odwołanie do funkcji szablon; wystąpienie „void flann::KNNResultSet2<float>::copy(int *,DistanceType *,::size_t,bool)” jest kompilowane
+          with
+          [
+              DistanceType=float
+          ]
+  C:\Program Files\flann\include\flann/algorithms/nn_index.h(181): note: zobacz odwołanie do klasy klasa szablon; wystąpienie „flann::KNNResultSet2<float>” jest kompilowane
+C:\Program Files\flann\include\flann/util/result_set.h(631): warning C4267: "=": konwersja z "size_t" do "int", możliwa utrata danych
+  C:\Program Files\flann\include\flann/util/result_set.h(617): note: podczas kompilowania funkcji członkowskiej „<Nieznany>” klasy klasa <Nieznany>
+  C:\Program Files\flann\include\flann/algorithms/nn_index.h(366): note: zobacz odwołanie do funkcji szablon; wystąpienie „void flann::KNNRadiusResultSet<float>::copy(int *,DistanceType *,::size_t,bool)” jest kompilowane
+          with
+          [
+              DistanceType=float
+          ]
+  C:\Program Files\flann\include\flann/algorithms/nn_index.h(357): note: zobacz odwołanie do klasy klasa szablon; wystąpienie „flann::KNNRadiusResultSet<float>” jest kompilowane
+  C:\Program Files\flann\include\flann/algorithms/nn_index.h(321): note: podczas kompilowania funkcji członkowskiej „<Nieznany>” klasy klasa <Nieznany>
+C:\Program Files\flann\include\flann/util/result_set.h(509): warning C4267: "=": konwersja z "size_t" do "int", możliwa utrata danych
+  C:\Program Files\flann\include\flann/util/result_set.h(495): note: podczas kompilowania funkcji członkowskiej „<Nieznany>” klasy klasa <Nieznany>
+  C:\Program Files\flann\include\flann/algorithms/nn_index.h(352): note: zobacz odwołanie do funkcji szablon; wystąpienie „void flann::RadiusResultSet<float>::copy(int *,DistanceType *,::size_t,bool)” jest kompilowane
+          with
+          [
+              DistanceType=float
+          ]
+  C:\Program Files\flann\include\flann/algorithms/nn_index.h(344): note: zobacz odwołanie do klasy klasa szablon; wystąpienie „flann::RadiusResultSet<float>” jest kompilowane
+C:\Program Files\flann\include\flann/algorithms/lsh_index.h(243): warning C4267: "argument": konwersja z "size_t" do "unsigned int", możliwa utrata danych
+  C:\Program Files\flann\include\flann/algorithms/lsh_index.h(236): note: podczas kompilowania funkcji członkowskiej „<Nieznany>” klasy klasa <Nieznany>
+  C:\Program Files\flann\include\flann/algorithms/all_indices.h(96): note: zobacz odwołanie do klasy klasa szablon; wystąpienie „flann::LshIndex<Distance>” jest kompilowane
+          with
+          [
+              Distance=flann::L2<float>
+          ]
+  C:\Program Files\flann\include\flann/algorithms/all_indices.h(102): note: zobacz odwołanie do klasy klasa szablon; wystąpienie „flann::valid_combination<flann::LshIndex,Distance,ElementType>::needs_kdtree_distance<flann::LshIndex<Distance>>” jest kompilowane
+          with
+          [
+              Distance=flann::L2<float>
+          ]
+  C:\Program Files\flann\include\flann/algorithms/all_indices.h(164): note: zobacz odwołanie do klasy klasa szablon; wystąpienie „flann::valid_combination<flann::LshIndex,Distance,ElementType>” jest kompilowane
+          with
+          [
+              Distance=flann::L2<float>
+          ]
+  C:\Program Files\flann\include\flann/flann.hpp(118): note: zobacz odwołanie do funkcji szablon; wystąpienie „flann::NNIndex<Distance> *flann::create_index_by_type<Distance>(const flann::Matrix<float> &,const flann::IndexParams &,const Distance &)” jest kompilowane
+          with
+          [
+              Distance=flann::L2<float>
+          ]
+  C:\Program Files\flann\include\flann/flann.hpp(107): note: podczas kompilowania funkcji członkowskiej „<Nieznany>” klasy klasa <Nieznany>
+  ConsoleApplication1.cpp(203): note: zobacz odwołanie do funkcji szablon; wystąpienie „flann::Index<flann::L2<float>>::Index(const flann::Matrix<float> &,const flann::IndexParams &,Distance)” jest kompilowane
+          with
+          [
+              Distance=flann::L2<float>
+          ]
+C:\Program Files\flann\include\flann/algorithms/lsh_index.h(250): warning C4267: "argument": konwersja z "size_t" do "int", możliwa utrata danych
+C:\Program Files\flann\include\flann/algorithms/lsh_index.h(251): warning C4267: "+=": konwersja z "size_t" do "int", możliwa utrata danych
+C:\Program Files\flann\include\flann/algorithms/lsh_index.h(255): warning C4267: "argument": konwersja z "size_t" do "int", możliwa utrata danych
+C:\Program Files\flann\include\flann/algorithms/lsh_index.h(263): warning C4267: "+=": konwersja z "size_t" do "int", możliwa utrata danych
+C:\Program Files\flann\include\flann/algorithms/lsh_index.h(202): warning C4267: "argument": konwersja z "size_t" do "unsigned int", możliwa utrata danych
+  C:\Program Files\flann\include\flann/algorithms/lsh_index.h(193): note: podczas kompilowania funkcji członkowskiej „<Nieznany>” klasy klasa <Nieznany>
+C:\Program Files\flann\include\flann/algorithms/lsh_index.h(206): warning C4267: "argument": konwersja z "size_t" do "int", możliwa utrata danych
+C:\Program Files\flann\include\flann/algorithms/lsh_index.h(207): warning C4267: "+=": konwersja z "size_t" do "int", możliwa utrata danych
+C:\Program Files\flann\include\flann/algorithms/lsh_index.h(211): warning C4267: "argument": konwersja z "size_t" do "int", możliwa utrata danych
+C:\Program Files\flann\include\flann/algorithms/lsh_index.h(216): warning C4267: "+=": konwersja z "size_t" do "int", możliwa utrata danych
+C:\Program Files\flann\include\flann/algorithms/lsh_index.h(171): warning C4267: "return": konwersja z "size_t" do "int", możliwa utrata danych
+  C:\Program Files\flann\include\flann/algorithms/lsh_index.h(170): note: podczas kompilowania funkcji członkowskiej „<Nieznany>” klasy klasa <Nieznany>
+C:\Program Files\flann\include\flann/algorithms/hierarchical_clustering_index.h(422): warning C4267: "argument": konwersja z "size_t" do "int", możliwa utrata danych
+  C:\Program Files\flann\include\flann/algorithms/hierarchical_clustering_index.h(417): note: podczas kompilowania funkcji członkowskiej „<Nieznany>” klasy klasa <Nieznany>
+  C:\Program Files\flann\include\flann/algorithms/all_indices.h(96): note: zobacz odwołanie do klasy klasa szablon; wystąpienie „flann::HierarchicalClusteringIndex<Distance>” jest kompilowane
+          with
+          [
+              Distance=flann::L2<float>
+          ]
+  C:\Program Files\flann\include\flann/algorithms/all_indices.h(102): note: zobacz odwołanie do klasy klasa szablon; wystąpienie „flann::valid_combination<flann::HierarchicalClusteringIndex,Distance,ElementType>::needs_kdtree_distance<flann::HierarchicalClusteringIndex<Distance>>” jest kompilowane
+          with
+          [
+              Distance=flann::L2<float>
+          ]
+  C:\Program Files\flann\include\flann/algorithms/all_indices.h(161): note: zobacz odwołanie do klasy klasa szablon; wystąpienie „flann::valid_combination<flann::HierarchicalClusteringIndex,Distance,ElementType>” jest kompilowane
+          with
+          [
+              Distance=flann::L2<float>
+          ]
+C:\Program Files\flann\include\flann/algorithms/hierarchical_clustering_index.h(355): warning C4267: "=": konwersja z "size_t" do "int", możliwa utrata danych
+  C:\Program Files\flann\include\flann/algorithms/hierarchical_clustering_index.h(348): note: podczas kompilowania funkcji członkowskiej „<Nieznany>” klasy klasa <Nieznany>
+C:\Program Files\flann\include\flann/algorithms/hierarchical_clustering_index.h(358): warning C4267: "argument": konwersja z "size_t" do "int", możliwa utrata danych
+C:\Program Files\flann\include\flann/algorithms/kdtree_single_index.h(197): warning C4267: "return": konwersja z "size_t" do "int", możliwa utrata danych
+  C:\Program Files\flann\include\flann/algorithms/kdtree_single_index.h(196): note: podczas kompilowania funkcji członkowskiej „<Nieznany>” klasy klasa <Nieznany>
+  C:\Program Files\flann\include\flann/algorithms/all_indices.h(96): note: zobacz odwołanie do klasy klasa szablon; wystąpienie „flann::KDTreeSingleIndex<Distance>” jest kompilowane
+          with
+          [
+              Distance=flann::L2<float>
+          ]
+  C:\Program Files\flann\include\flann/algorithms/all_indices.h(102): note: zobacz odwołanie do klasy klasa szablon; wystąpienie „flann::valid_combination<flann::KDTreeSingleIndex,Distance,ElementType>::needs_kdtree_distance<flann::KDTreeSingleIndex<Distance>>” jest kompilowane
+          with
+          [
+              Distance=flann::L2<float>
+          ]
+  C:\Program Files\flann\include\flann/algorithms/all_indices.h(138): note: zobacz odwołanie do klasy klasa szablon; wystąpienie „flann::valid_combination<flann::KDTreeSingleIndex,Distance,ElementType>” jest kompilowane
+          with
+          [
+              Distance=flann::L2<float>
+          ]
+C:\Program Files\flann\include\flann/algorithms/kdtree_single_index.h(117): warning C4267: "argument": konwersja z "size_t" do "int", możliwa utrata danych
+  C:\Program Files\flann\include\flann/algorithms/kdtree_single_index.h(115): note: podczas kompilowania funkcji członkowskiej „<Nieznany>” klasy klasa <Nieznany>
+C:\Program Files\flann\include\flann/util/result_set.h(287): warning C4267: "=": konwersja z "size_t" do "int", możliwa utrata danych
+  C:\Program Files\flann\include\flann/util/result_set.h(284): note: podczas kompilowania funkcji członkowskiej „<Nieznany>” klasy klasa <Nieznany>
+  C:\Program Files\flann\include\flann/algorithms/lsh_index.h(262): note: zobacz odwołanie do funkcji szablon; wystąpienie „void flann::KNNResultSet<float>::copy(int *,DistanceType *,::size_t,bool)” jest kompilowane
+          with
+          [
+              DistanceType=float
+          ]
+  C:\Program Files\flann\include\flann/algorithms/lsh_index.h(255): note: zobacz odwołanie do klasy klasa szablon; wystąpienie „flann::KNNResultSet<float>” jest kompilowane
+  C:\Program Files\flann\include\flann/algorithms/lsh_index.h(236): note: podczas kompilowania funkcji członkowskiej „<Nieznany>” klasy klasa <Nieznany>
+C:\Program Files\flann\include\flann/util/result_set.h(750): warning C4267: "=": konwersja z "size_t" do "int", możliwa utrata danych
+  C:\Program Files\flann\include\flann/util/result_set.h(749): note: podczas kompilowania funkcji członkowskiej „<Nieznany>” klasy klasa <Nieznany>
+  C:\Program Files\flann\include\flann/algorithms/lsh_index.h(250): note: zobacz odwołanie do funkcji szablon; wystąpienie „void flann::UniqueResultSet<DistanceType>::copy(int *,DistanceType *,int,bool)” jest kompilowane
+          with
+          [
+              DistanceType=float
+          ]
+  C:\Program Files\flann\include\flann/util/result_set.h(794): note: zobacz odwołanie do klasy klasa szablon; wystąpienie „flann::UniqueResultSet<DistanceType>” jest kompilowane
+          with
+          [
+              DistanceType=float
+          ]
+  C:\Program Files\flann\include\flann/algorithms/lsh_index.h(243): note: zobacz odwołanie do klasy klasa szablon; wystąpienie „flann::KNNUniqueResultSet<float>” jest kompilowane
+C:\Program Files\flann\include\flann/util/result_set.h(813): warning C4267: "argument": konwersja z "size_t" do "unsigned int", możliwa utrata danych
+  C:\Program Files\flann\include\flann/util/result_set.h(810): note: podczas kompilowania funkcji członkowskiej „<Nieznany>” klasy klasa <Nieznany>
+C:\Program Files\flann\include\flann/algorithms/lsh_index.h(408): warning C4267: "argument": konwersja z "size_t" do "flann::lsh::BucketKey", możliwa utrata danych
+  C:\Program Files\flann\include\flann/algorithms/lsh_index.h(399): note: podczas kompilowania funkcji członkowskiej „<Nieznany>” klasy klasa <Nieznany>
+  C:\Program Files\flann\include\flann/algorithms/lsh_index.h(281): note: zobacz odwołanie do funkcji szablon; wystąpienie „void flann::LshIndex<Distance>::getNeighbors(const float *,flann::ResultSet<float> &)” jest kompilowane
+          with
+          [
+              Distance=flann::L2<float>
+          ]
+C:\Program Files\flann\include\flann/algorithms/hierarchical_clustering_index.h(489): warning C4244: "inicjowanie": konwersja z "__int64" do "int", możliwa utrata danych
+  C:\Program Files\flann\include\flann/algorithms/hierarchical_clustering_index.h(486): note: podczas kompilowania funkcji członkowskiej „<Nieznany>” klasy klasa <Nieznany>
+  C:\Program Files\flann\include\flann/algorithms/hierarchical_clustering_index.h(378): note: zobacz odwołanie do funkcji szablon; wystąpienie „void flann::HierarchicalClusteringIndex<Distance>::save_tree(FILE *,flann::HierarchicalClusteringIndex<Distance>::Node *,int)” jest kompilowane
+          with
+          [
+              Distance=flann::L2<float>
+          ]
+C:\Program Files\flann\include\flann/algorithms/kmeans_index.h(778): warning C4267: "+=": konwersja z "size_t" do "int", możliwa utrata danych
+  C:\Program Files\flann\include\flann/algorithms/kmeans_index.h(644): note: podczas kompilowania funkcji członkowskiej „<Nieznany>” klasy klasa <Nieznany>
+  C:\Program Files\flann\include\flann/algorithms/kmeans_index.h(375): note: zobacz odwołanie do funkcji szablon; wystąpienie „void flann::KMeansIndex<Distance>::computeClustering(flann::KMeansIndex<Distance>::KMeansNode *,int *,int,int,int)” jest kompilowane
+          with
+          [
+              Distance=flann::L2<float>
+          ]
+  C:\Program Files\flann\include\flann/algorithms/all_indices.h(96): note: zobacz odwołanie do klasy klasa szablon; wystąpienie „flann::KMeansIndex<Distance>” jest kompilowane
+          with
+          [
+              Distance=flann::L2<float>
+          ]
+  C:\Program Files\flann\include\flann/algorithms/all_indices.h(102): note: zobacz odwołanie do klasy klasa szablon; wystąpienie „flann::valid_combination<flann::KMeansIndex,Distance,ElementType>::needs_kdtree_distance<flann::KMeansIndex<Distance>>” jest kompilowane
+          with
+          [
+              Distance=flann::L2<float>
+          ]
+  C:\Program Files\flann\include\flann/algorithms/all_indices.h(152): note: zobacz odwołanie do klasy klasa szablon; wystąpienie „flann::valid_combination<flann::KMeansIndex,Distance,ElementType>” jest kompilowane
+          with
+          [
+              Distance=flann::L2<float>
+          ]
+C:\Program Files\flann\include\flann/algorithms/kdtree_single_index.h(500): warning C4267: "argument": konwersja z "size_t" do "int", możliwa utrata danych
+  C:\Program Files\flann\include\flann/algorithms/kdtree_single_index.h(495): note: podczas kompilowania funkcji członkowskiej „<Nieznany>” klasy klasa <Nieznany>
+  C:\Program Files\flann\include\flann/algorithms/kdtree_single_index.h(219): note: zobacz odwołanie do funkcji szablon; wystąpienie „float flann::KDTreeSingleIndex<Distance>::computeInitialDistances(const float *,std::vector<float,std::allocator<_Ty>> &)” jest kompilowane
+          with
+          [
+              Distance=flann::L2<float>,
+              _Ty=float
+          ]
+C:\Program Files\flann\include\flann/algorithms/kdtree_single_index.h(504): warning C4267: "argument": konwersja z "size_t" do "int", możliwa utrata danych
+C:\Program Files\flann\include\flann/util/lsh_table.h(274): warning C4334: "<<": wynik 32-bitowe przesunięcia niejawnie skonwertowano do 64 bitów (czy 64-bitowe przesunięcie było zamierzone?)
+  C:\Program Files\flann\include\flann/util/lsh_table.h(266): note: podczas kompilowania funkcji członkowskiej „<Nieznany>” klasy klasa <Nieznany>
+  C:\Program Files\flann\include\flann/util/lsh_table.h(196): note: zobacz odwołanie do funkcji szablon; wystąpienie „void flann::lsh::LshTable<float>::optimize(void)” jest kompilowane
+  C:\Program Files\flann\include\flann/algorithms/lsh_index.h(113): note: zobacz odwołanie do klasy klasa szablon; wystąpienie „flann::lsh::LshTable<float>” jest kompilowane
+  C:\Program Files\flann\include\flann/algorithms/lsh_index.h(109): note: podczas kompilowania funkcji członkowskiej „<Nieznany>” klasy klasa <Nieznany>
+  C:\Program Files\flann\include\flann/algorithms/lsh_index.h(141): note: zobacz odwołanie do funkcji szablon; wystąpienie „void flann::LshIndex<Distance>::buildIndex(void)” jest kompilowane
+          with
+          [
+              Distance=flann::L2<float>
+          ]
+C:\Program Files\flann\include\flann/util/lsh_table.h(285): warning C4334: "<<": wynik 32-bitowe przesunięcia niejawnie skonwertowano do 64 bitów (czy 64-bitowe przesunięcie było zamierzone?)
+C:\Program Files\flann\include\flann/util/lsh_table.h(287): warning C4334: "<<": wynik 32-bitowe przesunięcia niejawnie skonwertowano do 64 bitów (czy 64-bitowe przesunięcie było zamierzone?)
+C:\Program Files\flann\include\flann/util/lsh_table.h(164): warning C4267: "inicjowanie": konwersja z "size_t" do "flann::lsh::BucketKey", możliwa utrata danych
+  C:\Program Files\flann\include\flann/util/lsh_table.h(162): note: podczas kompilowania funkcji członkowskiej „<Nieznany>” klasy klasa <Nieznany>
+  C:\Program Files\flann\include\flann/util/lsh_table.h(194): note: zobacz odwołanie do funkcji szablon; wystąpienie „void flann::lsh::LshTable<float>::add(unsigned int,const ElementType *)” jest kompilowane
+          with
+          [
+              ElementType=float
+          ]
+C:\Program Files\flann\include\flann/algorithms/kdtree_single_index.h(383): warning C4267: "=": konwersja z "size_t" do "int", możliwa utrata danych
+  C:\Program Files\flann\include\flann/algorithms/kdtree_single_index.h(374): note: podczas kompilowania funkcji członkowskiej „<Nieznany>” klasy klasa <Nieznany>
+  C:\Program Files\flann\include\flann/algorithms/kdtree_single_index.h(338): note: zobacz odwołanie do funkcji szablon; wystąpienie „void flann::KDTreeSingleIndex<Distance>::middleSplit(int *,int,int &,int &,float &,const std::vector<flann::KDTreeSingleIndex<Distance>::Interval,std::allocator<_Ty>> &)” jest kompilowane
+          with
+          [
+              Distance=flann::L2<float>,
+              _Ty=flann::KDTreeSingleIndex<flann::L2<float>>::Interval
+          ]
+C:\Program Files\flann\include\flann/algorithms/kdtree_single_index.h(400): warning C4267: "argument": konwersja z "size_t" do "int", możliwa utrata danych
+C:\Program Files\flann\include\flann/algorithms/kdtree_single_index.h(404): warning C4267: "=": konwersja z "size_t" do "int", możliwa utrata danych
+C:\Program Files\flann\include\flann/util/sampling.h(65): warning C4267: "argument": konwersja z "size_t" do "int", możliwa utrata danych
+  C:\Program Files\flann\include\flann/algorithms/autotuned_index.h(495): note: zobacz odwołanie do funkcji szablon; wystąpienie „flann::Matrix<float> flann::random_sample<float>(const flann::Matrix<float> &,::size_t)” jest kompilowane
+  C:\Program Files\flann\include\flann/algorithms/autotuned_index.h(485): note: podczas kompilowania funkcji członkowskiej „<Nieznany>” klasy klasa <Nieznany>
+  C:\Program Files\flann\include\flann/algorithms/autotuned_index.h(112): note: zobacz odwołanie do funkcji szablon; wystąpienie „float flann::AutotunedIndex<Distance>::estimateSearchParams(flann::SearchParams &)” jest kompilowane
+          with
+          [
+              Distance=flann::L2<float>
+          ]
+  C:\Program Files\flann\include\flann/algorithms/all_indices.h(96): note: zobacz odwołanie do klasy klasa szablon; wystąpienie „flann::AutotunedIndex<Distance>” jest kompilowane
+          with
+          [
+              Distance=flann::L2<float>
+          ]
+  C:\Program Files\flann\include\flann/algorithms/all_indices.h(102): note: zobacz odwołanie do klasy klasa szablon; wystąpienie „flann::valid_combination<flann::AutotunedIndex,Distance,ElementType>::needs_kdtree_distance<flann::AutotunedIndex<Distance>>” jest kompilowane
+          with
+          [
+              Distance=flann::L2<float>
+          ]
+  C:\Program Files\flann\include\flann/algorithms/all_indices.h(158): note: zobacz odwołanie do klasy klasa szablon; wystąpienie „flann::valid_combination<flann::AutotunedIndex,Distance,ElementType>” jest kompilowane
+          with
+          [
+              Distance=flann::L2<float>
+          ]
+C:\Program Files\flann\include\flann/util/sampling.h(46): warning C4267: "argument": konwersja z "size_t" do "int", możliwa utrata danych
+  C:\Program Files\flann\include\flann/algorithms/autotuned_index.h(425): note: zobacz odwołanie do funkcji szablon; wystąpienie „flann::Matrix<float> flann::random_sample<float>(flann::Matrix<float> &,long,bool)” jest kompilowane
+  C:\Program Files\flann\include\flann/algorithms/autotuned_index.h(407): note: podczas kompilowania funkcji członkowskiej „<Nieznany>” klasy klasa <Nieznany>
+  C:\Program Files\flann\include\flann/algorithms/autotuned_index.h(104): note: zobacz odwołanie do funkcji szablon; wystąpienie „flann::IndexParams flann::AutotunedIndex<Distance>::estimateBuildParams(void)” jest kompilowane
+          with
+          [
+              Distance=flann::L2<float>
+          ]
+C:\Program Files\flann\include\flann/algorithms/lsh_index.h(97): warning C4267: "=": konwersja z "size_t" do "unsigned int", możliwa utrata danych
+  C:\Program Files\flann\include\flann/algorithms/lsh_index.h(89): note: podczas kompilowania funkcji członkowskiej „<Nieznany>” klasy klasa <Nieznany>
+  C:\Program Files\flann\include\flann/algorithms/all_indices.h(115): note: zobacz odwołanie do funkcji szablon; wystąpienie „flann::LshIndex<Distance>::LshIndex(const flann::Matrix<float> &,const flann::IndexParams &,Distance)” jest kompilowane
+          with
+          [
+              Distance=flann::L2<float>
+          ]
+C:\Program Files\flann\include\flann/algorithms/kdtree_single_index.h(96): warning C4267: "=": konwersja z "size_t" do "MPI_Datatype", możliwa utrata danych
+  C:\Program Files\flann\include\flann/algorithms/kdtree_single_index.h(84): note: podczas kompilowania funkcji członkowskiej „<Nieznany>” klasy klasa <Nieznany>
+  C:\Program Files\flann\include\flann/algorithms/all_indices.h(115): note: zobacz odwołanie do funkcji szablon; wystąpienie „flann::KDTreeSingleIndex<Distance>::KDTreeSingleIndex(const flann::Matrix<float> &,const flann::IndexParams &,Distance)” jest kompilowane
+          with
+          [
+              Distance=flann::L2<float>
+          ]
+C:\Program Files\flann\include\flann/nn/ground_truth.h(60): warning C4267: "=": konwersja z "size_t" do "int", możliwa utrata danych
+  C:\Program Files\flann\include\flann/nn/ground_truth.h(91): note: zobacz odwołanie do funkcji szablon; wystąpienie „void flann::find_nearest<Distance>(const flann::Matrix<float> &,float *,int *,int,int,Distance)” jest kompilowane
+          with
+          [
+              Distance=flann::L2<float>
+          ]
+  C:\Program Files\flann\include\flann/algorithms/autotuned_index.h(503): note: zobacz odwołanie do funkcji szablon; wystąpienie „void flann::compute_ground_truth<Distance>(const flann::Matrix<float> &,const flann::Matrix<float> &,flann::Matrix<int> &,int,Distance)” jest kompilowane
+          with
+          [
+              Distance=flann::L2<float>
+          ]
+C:\Program Files\flann\include\flann/nn/ground_truth.h(65): warning C4267: "=": konwersja z "size_t" do "int", możliwa utrata danych
+C:\Program Files\flann\include\flann/nn/index_testing.h(120): warning C4267: "argument": konwersja z "size_t" do "int", możliwa utrata danych
+  C:\Program Files\flann\include\flann/nn/index_testing.h(175): note: zobacz odwołanie do funkcji szablon; wystąpienie „float flann::search_with_ground_truth<Distance>(flann::NNIndex<Distance> &,const flann::Matrix<float> &,const flann::Matrix<float> &,const flann::Matrix<int> &,int,int,float &,float &,const Distance &,int)” jest kompilowane
+          with
+          [
+              Distance=flann::L2<float>
+          ]
+  C:\Program Files\flann\include\flann/algorithms/autotuned_index.h(520): note: zobacz odwołanie do funkcji szablon; wystąpienie „float flann::test_index_precision<Distance>(flann::NNIndex<Distance> &,const flann::Matrix<float> &,const flann::Matrix<float> &,const flann::Matrix<int> &,float,int &,const Distance &,int,int)” jest kompilowane
+          with
+          [
+              Distance=flann::L2<float>
+          ]
+C:\Program Files\boost\boost_1_66_0\boost/mpi/detail/binary_buffer_oprimitive.hpp(87): warning C4267: "argument": konwersja z "size_t" do "int", możliwa utrata danych
+  C:\Program Files\boost\boost_1_66_0\boost/archive/detail/oserializer.hpp(93): note: zobacz odwołanie do funkcji szablon; wystąpienie „void boost::mpi::binary_buffer_oprimitive::save<char>(const std::basic_string<char,std::char_traits<char>,std::allocator<char>> &)” jest kompilowane
+  C:\Program Files\boost\boost_1_66_0\boost/archive/detail/oserializer.hpp(237): note: zobacz odwołanie do funkcji szablon; wystąpienie „void boost::archive::save_access::save_primitive<Archive,T>(Archive &,const T &)” jest kompilowane
+          with
+          [
+              Archive=boost::mpi::packed_oarchive,
+              T=std::string
+          ]
+  C:\Program Files\boost\boost_1_66_0\boost/archive/detail/oserializer.hpp(315): note: zobacz odwołanie do funkcji szablon; wystąpienie „void boost::archive::detail::save_non_pointer_type<Archive>::save_primitive::invoke<T>(Archive &,const T &)” jest kompilowane
+          with
+          [
+              Archive=boost::mpi::packed_oarchive,
+              T=std::string
+          ]
+  C:\Program Files\boost\boost_1_66_0\boost/archive/detail/oserializer.hpp(315): note: zobacz odwołanie do funkcji szablon; wystąpienie „void boost::archive::detail::save_non_pointer_type<Archive>::save_primitive::invoke<T>(Archive &,const T &)” jest kompilowane
+          with
+          [
+              Archive=boost::mpi::packed_oarchive,
+              T=std::string
+          ]
+  C:\Program Files\boost\boost_1_66_0\boost/archive/detail/oserializer.hpp(539): note: zobacz odwołanie do funkcji szablon; wystąpienie „void boost::archive::detail::save_non_pointer_type<Archive>::invoke<const T>(Archive &,const T &)” jest kompilowane
+          with
+          [
+              Archive=boost::mpi::packed_oarchive,
+              T=std::string
+          ]
+  C:\Program Files\boost\boost_1_66_0\boost/archive/detail/oserializer.hpp(539): note: zobacz odwołanie do funkcji szablon; wystąpienie „void boost::archive::detail::save_non_pointer_type<Archive>::invoke<const T>(Archive &,const T &)” jest kompilowane
+          with
+          [
+              Archive=boost::mpi::packed_oarchive,
+              T=std::string
+          ]
+  C:\Program Files\boost\boost_1_66_0\boost/archive/detail/common_oarchive.hpp(71): note: zobacz odwołanie do funkcji szablon; wystąpienie „void boost::archive::save<Archive,T>(Archive &,T &)” jest kompilowane
+          with
+          [
+              Archive=boost::mpi::packed_oarchive,
+              T=std::string
+          ]
+  C:\Program Files\boost\boost_1_66_0\boost/mpi/packed_oarchive.hpp(97): note: zobacz odwołanie do funkcji szablon; wystąpienie „void boost::archive::detail::common_oarchive<boost::mpi::packed_oarchive>::save_override<const T>(T &)” jest kompilowane
+          with
+          [
+              T=std::string
+          ]
+  C:\Program Files\boost\boost_1_66_0\boost/mpi/packed_oarchive.hpp(97): note: zobacz odwołanie do funkcji szablon; wystąpienie „void boost::archive::detail::common_oarchive<boost::mpi::packed_oarchive>::save_override<const T>(T &)” jest kompilowane
+          with
+          [
+              T=std::string
+          ]
+  C:\Program Files\boost\boost_1_66_0\boost/mpi/packed_oarchive.hpp(112): note: zobacz odwołanie do funkcji szablon; wystąpienie „void boost::mpi::packed_oarchive::save_override<T>(const T &,boost::mpl::false_)” jest kompilowane
+          with
+          [
+              T=std::string
+          ]
+  C:\Program Files\boost\boost_1_66_0\boost/archive/detail/interface_oarchive.hpp(70): note: zobacz odwołanie do funkcji szablon; wystąpienie „void boost::mpi::packed_oarchive::save_override<T>(const T &)” jest kompilowane
+          with
+          [
+              T=std::string
+          ]
+  C:\Program Files\boost\boost_1_66_0\boost/mpi/packed_oarchive.hpp(121): note: zobacz odwołanie do funkcji szablon; wystąpienie „Archive &boost::archive::detail::interface_oarchive<Archive>::operator <<<std::string>(const T &)” jest kompilowane
+          with
+          [
+              Archive=boost::mpi::packed_oarchive,
+              T=std::string
+          ]
+  C:\Program Files\boost\boost_1_66_0\boost/mpi/packed_oarchive.hpp(121): note: zobacz odwołanie do funkcji szablon; wystąpienie „Archive &boost::archive::detail::interface_oarchive<Archive>::operator <<<std::string>(const T &)” jest kompilowane
+          with
+          [
+              Archive=boost::mpi::packed_oarchive,
+              T=std::string
+          ]
+C:\Program Files\boost\boost_1_66_0\boost/mpi/detail/binary_buffer_iprimitive.hpp(73): warning C4267: "argument": konwersja z "size_t" do "int", możliwa utrata danych
+  C:\Program Files\boost\boost_1_66_0\boost/serialization/array_wrapper.hpp(82): note: zobacz odwołanie do funkcji szablon; wystąpienie „void boost::mpi::binary_buffer_iprimitive::load_array<T>(const boost::serialization::array_wrapper<T> &,unsigned int)” jest kompilowane
+          with
+          [
+              T=float
+          ]
+  C:\Program Files\boost\boost_1_66_0\boost/serialization/access.hpp(99): note: zobacz odwołanie do funkcji szablon; wystąpienie „void boost::serialization::array_wrapper<T>::load<Archive>(Archive &,const unsigned int)” jest kompilowane
+          with
+          [
+              T=float,
+              Archive=boost::mpi::packed_iarchive
+          ]
+  C:\Program Files\boost\boost_1_66_0\boost/serialization/access.hpp(99): note: zobacz odwołanie do funkcji szablon; wystąpienie „void boost::serialization::array_wrapper<T>::load<Archive>(Archive &,const unsigned int)” jest kompilowane
+          with
+          [
+              T=float,
+              Archive=boost::mpi::packed_iarchive
+          ]
+  C:\Program Files\boost\boost_1_66_0\boost/serialization/split_member.hpp(54): note: zobacz odwołanie do funkcji szablon; wystąpienie „void boost::serialization::access::member_load<Archive,T>(Archive &,T &,const unsigned int)” jest kompilowane
+          with
+          [
+              Archive=boost::mpi::packed_iarchive,
+              T=boost::serialization::array_wrapper<float>
+          ]
+  C:\Program Files\boost\boost_1_66_0\boost/serialization/split_member.hpp(53): note: podczas kompilowania funkcji członkowskiej „<Nieznany>” klasy klasa <Nieznany>
+  C:\Program Files\boost\boost_1_66_0\boost/serialization/split_member.hpp(69): note: zobacz odwołanie do funkcji szablon; wystąpienie „void boost::serialization::detail::member_loader<Archive,T>::invoke(Archive &,T &,const unsigned int)” jest kompilowane
+          with
+          [
+              Archive=boost::mpi::packed_iarchive,
+              T=boost::serialization::array_wrapper<float>
+          ]
+  C:\Program Files\boost\boost_1_66_0\boost/serialization/split_member.hpp(69): note: zobacz odwołanie do klasy klasa szablon; wystąpienie „boost::serialization::detail::member_loader<Archive,T>” jest kompilowane
+          with
+          [
+              Archive=boost::mpi::packed_iarchive,
+              T=boost::serialization::array_wrapper<float>
+          ]
+  C:\Program Files\boost\boost_1_66_0\boost/serialization/array_wrapper.hpp(68): note: zobacz odwołanie do funkcji szablon; wystąpienie „void boost::serialization::split_member<Archive,boost::serialization::array_wrapper<T>>(Archive &,boost::serialization::array_wrapper<T> &,const unsigned int)” jest kompilowane
+          with
+          [
+              Archive=boost::mpi::packed_iarchive,
+              T=float
+          ]
+  C:\Program Files\boost\boost_1_66_0\boost/serialization/array_wrapper.hpp(93): note: zobacz odwołanie do funkcji szablon; wystąpienie „void boost::serialization::array_wrapper<T>::serialize_optimized<Archive>(Archive &,const unsigned int,boost::mpl::true_)” jest kompilowane
+          with
+          [
+              T=float,
+              Archive=boost::mpi::packed_iarchive
+          ]
+  C:\Program Files\boost\boost_1_66_0\boost/serialization/array_wrapper.hpp(93): note: zobacz odwołanie do funkcji szablon; wystąpienie „void boost::serialization::array_wrapper<T>::serialize_optimized<Archive>(Archive &,const unsigned int,boost::mpl::true_)” jest kompilowane
+          with
+          [
+              T=float,
+              Archive=boost::mpi::packed_iarchive
+          ]
+  C:\Program Files\boost\boost_1_66_0\boost/serialization/access.hpp(116): note: zobacz odwołanie do funkcji szablon; wystąpienie „void boost::serialization::array_wrapper<T>::serialize<Archive>(Archive &,const unsigned int)” jest kompilowane
+          with
+          [
+              T=float,
+              Archive=boost::mpi::packed_iarchive
+          ]
+  C:\Program Files\boost\boost_1_66_0\boost/serialization/access.hpp(116): note: zobacz odwołanie do funkcji szablon; wystąpienie „void boost::serialization::array_wrapper<T>::serialize<Archive>(Archive &,const unsigned int)” jest kompilowane
+          with
+          [
+              T=float,
+              Archive=boost::mpi::packed_iarchive
+          ]
+  C:\Program Files\boost\boost_1_66_0\boost/serialization/serialization.hpp(68): note: zobacz odwołanie do funkcji szablon; wystąpienie „void boost::serialization::access::serialize<Archive,T>(Archive &,T &,const unsigned int)” jest kompilowane
+          with
+          [
+              Archive=boost::mpi::packed_iarchive,
+              T=const boost::serialization::array_wrapper<float>
+          ]
+  C:\Program Files\boost\boost_1_66_0\boost/serialization/serialization.hpp(126): note: zobacz odwołanie do funkcji szablon; wystąpienie „void boost::serialization::serialize<Archive,T>(Archive &,T &,const unsigned int)” jest kompilowane
+          with
+          [
+              Archive=boost::mpi::packed_iarchive,
+              T=const boost::serialization::array_wrapper<float>
+          ]
+  C:\Program Files\boost\boost_1_66_0\boost/archive/detail/iserializer.hpp(401): note: zobacz odwołanie do funkcji szablon; wystąpienie „void boost::serialization::serialize_adl<Archive,T>(Archive &,T &,const unsigned int)” jest kompilowane
+          with
+          [
+              Archive=boost::mpi::packed_iarchive,
+              T=const boost::serialization::array_wrapper<float>
+          ]
+  C:\Program Files\boost\boost_1_66_0\boost/archive/detail/iserializer.hpp(463): note: zobacz odwołanie do funkcji szablon; wystąpienie „void boost::archive::detail::load_non_pointer_type<Archive>::load_only::invoke<const T>(Archive &,const T &)” jest kompilowane
+          with
+          [
+              Archive=boost::mpi::packed_iarchive,
+              T=const boost::serialization::array_wrapper<float>
+          ]
+  C:\Program Files\boost\boost_1_66_0\boost/archive/detail/iserializer.hpp(463): note: zobacz odwołanie do funkcji szablon; wystąpienie „void boost::archive::detail::load_non_pointer_type<Archive>::load_only::invoke<const T>(Archive &,const T &)” jest kompilowane
+          with
+          [
+              Archive=boost::mpi::packed_iarchive,
+              T=const boost::serialization::array_wrapper<float>
+          ]
+  C:\Program Files\boost\boost_1_66_0\boost/archive/detail/iserializer.hpp(626): note: zobacz odwołanie do funkcji szablon; wystąpienie „void boost::archive::detail::load_non_pointer_type<Archive>::invoke<T>(Archive &,T &)” jest kompilowane
+          with
+          [
+              Archive=boost::mpi::packed_iarchive,
+              T=const boost::serialization::array_wrapper<float>
+          ]
+  C:\Program Files\boost\boost_1_66_0\boost/archive/detail/iserializer.hpp(626): note: zobacz odwołanie do funkcji szablon; wystąpienie „void boost::archive::detail::load_non_pointer_type<Archive>::invoke<T>(Archive &,T &)” jest kompilowane
+          with
+          [
+              Archive=boost::mpi::packed_iarchive,
+              T=const boost::serialization::array_wrapper<float>
+          ]
+  C:\Program Files\boost\boost_1_66_0\boost/archive/detail/common_iarchive.hpp(67): note: zobacz odwołanie do funkcji szablon; wystąpienie „void boost::archive::load<Archive,T>(Archive &,T &)” jest kompilowane
+          with
+          [
+              Archive=boost::mpi::packed_iarchive,
+              T=const boost::serialization::array_wrapper<float>
+          ]
+  C:\Program Files\boost\boost_1_66_0\boost/mpi/packed_iarchive.hpp(99): note: zobacz odwołanie do funkcji szablon; wystąpienie „void boost::archive::detail::common_iarchive<boost::mpi::packed_iarchive>::load_override<T>(T &)” jest kompilowane
+          with
+          [
+              T=const boost::serialization::array_wrapper<float>
+          ]
+  C:\Program Files\boost\boost_1_66_0\boost/mpi/packed_iarchive.hpp(99): note: zobacz odwołanie do funkcji szablon; wystąpienie „void boost::archive::detail::common_iarchive<boost::mpi::packed_iarchive>::load_override<T>(T &)” jest kompilowane
+          with
+          [
+              T=const boost::serialization::array_wrapper<float>
+          ]
+  C:\Program Files\boost\boost_1_66_0\boost/mpi/packed_iarchive.hpp(116): note: zobacz odwołanie do funkcji szablon; wystąpienie „void boost::mpi::packed_iarchive::load_override<T>(T &,boost::mpl::false_)” jest kompilowane
+          with
+          [
+              T=const boost::serialization::array_wrapper<float>
+          ]
+  C:\Program Files\boost\boost_1_66_0\boost/archive/detail/interface_iarchive.hpp(68): note: zobacz odwołanie do funkcji szablon; wystąpienie „void boost::mpi::packed_iarchive::load_override<T>(T &)” jest kompilowane
+          with
+          [
+              T=const boost::serialization::array_wrapper<float>
+          ]
+  C:\Program Files\boost\boost_1_66_0\boost/archive/detail/interface_iarchive.hpp(75): note: zobacz odwołanie do funkcji szablon; wystąpienie „Archive &boost::archive::detail::interface_iarchive<Archive>::operator >><T>(T &)” jest kompilowane
+          with
+          [
+              Archive=boost::mpi::packed_iarchive,
+              T=const boost::serialization::array_wrapper<float>
+          ]
+  C:\Program Files\boost\boost_1_66_0\boost/archive/detail/interface_iarchive.hpp(75): note: zobacz odwołanie do funkcji szablon; wystąpienie „Archive &boost::archive::detail::interface_iarchive<Archive>::operator >><T>(T &)” jest kompilowane
+          with
+          [
+              Archive=boost::mpi::packed_iarchive,
+              T=const boost::serialization::array_wrapper<float>
+          ]
+  C:\Program Files\flann\include\flann/mpi/matrix.h(47): note: zobacz odwołanie do funkcji szablon; wystąpienie „Archive &boost::archive::detail::interface_iarchive<Archive>::operator &<const boost::serialization::array_wrapper<T>>(const boost::serialization::array_wrapper<T> &)” jest kompilowane
+          with
+          [
+              Archive=boost::mpi::packed_iarchive,
+              T=float
+          ]
+  C:\Program Files\flann\include\flann/mpi/matrix.h(47): note: zobacz odwołanie do funkcji szablon; wystąpienie „Archive &boost::archive::detail::interface_iarchive<Archive>::operator &<const boost::serialization::array_wrapper<T>>(const boost::serialization::array_wrapper<T> &)” jest kompilowane
+          with
+          [
+              Archive=boost::mpi::packed_iarchive,
+              T=float
+          ]
+  C:\Program Files\boost\boost_1_66_0\boost/serialization/serialization.hpp(126): note: zobacz odwołanie do funkcji szablon; wystąpienie „void boost::serialization::serialize<Archive,float>(Archive &,flann::Matrix<float> &,const unsigned int)” jest kompilowane
+          with
+          [
+              Archive=boost::mpi::packed_iarchive
+          ]
+  C:\Program Files\boost\boost_1_66_0\boost/archive/detail/iserializer.hpp(193): note: zobacz odwołanie do funkcji szablon; wystąpienie „void boost::serialization::serialize_adl<Archive,T>(Archive &,T &,const unsigned int)” jest kompilowane
+          with
+          [
+              Archive=boost::mpi::packed_iarchive,
+              T=flann::Matrix<float>
+          ]
+  C:\Program Files\boost\boost_1_66_0\boost/archive/detail/iserializer.hpp(171): note: podczas kompilowania funkcji członkowskiej „<Nieznany>” klasy klasa <Nieznany>
+  C:\Program Files\boost\boost_1_66_0\boost/archive/detail/iserializer.hpp(416): note: zobacz odwołanie do klasy klasa szablon; wystąpienie „boost::archive::detail::iserializer<Archive,T>” jest kompilowane
+          with
+          [
+              Archive=boost::mpi::packed_iarchive,
+              T=flann::Matrix<float>
+          ]
+  C:\Program Files\boost\boost_1_66_0\boost/archive/detail/iserializer.hpp(463): note: zobacz odwołanie do funkcji szablon; wystąpienie „void boost::archive::detail::load_non_pointer_type<Archive>::load_standard::invoke<T>(Archive &,const T &)” jest kompilowane
+          with
+          [
+              Archive=boost::mpi::packed_iarchive,
+              T=flann::Matrix<float>
+          ]
+  C:\Program Files\boost\boost_1_66_0\boost/archive/detail/iserializer.hpp(463): note: zobacz odwołanie do funkcji szablon; wystąpienie „void boost::archive::detail::load_non_pointer_type<Archive>::load_standard::invoke<T>(Archive &,const T &)” jest kompilowane
+          with
+          [
+              Archive=boost::mpi::packed_iarchive,
+              T=flann::Matrix<float>
+          ]
+  C:\Program Files\boost\boost_1_66_0\boost/archive/detail/iserializer.hpp(626): note: zobacz odwołanie do funkcji szablon; wystąpienie „void boost::archive::detail::load_non_pointer_type<Archive>::invoke<T>(Archive &,T &)” jest kompilowane
+          with
+          [
+              Archive=boost::mpi::packed_iarchive,
+              T=flann::Matrix<float>
+          ]
+  C:\Program Files\boost\boost_1_66_0\boost/archive/detail/iserializer.hpp(626): note: zobacz odwołanie do funkcji szablon; wystąpienie „void boost::archive::detail::load_non_pointer_type<Archive>::invoke<T>(Archive &,T &)” jest kompilowane
+          with
+          [
+              Archive=boost::mpi::packed_iarchive,
+              T=flann::Matrix<float>
+          ]
+  C:\Program Files\boost\boost_1_66_0\boost/archive/detail/common_iarchive.hpp(67): note: zobacz odwołanie do funkcji szablon; wystąpienie „void boost::archive::load<Archive,T>(Archive &,T &)” jest kompilowane
+          with
+          [
+              Archive=boost::mpi::packed_iarchive,
+              T=flann::Matrix<float>
+          ]
+  C:\Program Files\boost\boost_1_66_0\boost/mpi/packed_iarchive.hpp(99): note: zobacz odwołanie do funkcji szablon; wystąpienie „void boost::archive::detail::common_iarchive<boost::mpi::packed_iarchive>::load_override<T>(T &)” jest kompilowane
+          with
+          [
+              T=flann::Matrix<float>
+          ]
+  C:\Program Files\boost\boost_1_66_0\boost/mpi/packed_iarchive.hpp(99): note: zobacz odwołanie do funkcji szablon; wystąpienie „void boost::archive::detail::common_iarchive<boost::mpi::packed_iarchive>::load_override<T>(T &)” jest kompilowane
+          with
+          [
+              T=flann::Matrix<float>
+          ]
+  C:\Program Files\boost\boost_1_66_0\boost/mpi/packed_iarchive.hpp(116): note: zobacz odwołanie do funkcji szablon; wystąpienie „void boost::mpi::packed_iarchive::load_override<T>(T &,boost::mpl::false_)” jest kompilowane
+          with
+          [
+              T=flann::Matrix<float>
+          ]
+  C:\Program Files\boost\boost_1_66_0\boost/archive/detail/interface_iarchive.hpp(68): note: zobacz odwołanie do funkcji szablon; wystąpienie „void boost::mpi::packed_iarchive::load_override<T>(T &)” jest kompilowane
+          with
+          [
+              T=flann::Matrix<float>
+          ]
+  C:\Program Files\boost\boost_1_66_0\boost/mpi/collectives/broadcast.hpp(120): note: zobacz odwołanie do funkcji szablon; wystąpienie „Archive &boost::archive::detail::interface_iarchive<Archive>::operator >><T>(T &)” jest kompilowane
+          with
+          [
+              Archive=boost::mpi::packed_iarchive,
+              T=flann::Matrix<float>
+          ]
+  C:\Program Files\boost\boost_1_66_0\boost/mpi/collectives/broadcast.hpp(120): note: zobacz odwołanie do funkcji szablon; wystąpienie „Archive &boost::archive::detail::interface_iarchive<Archive>::operator >><T>(T &)” jest kompilowane
+          with
+          [
+              Archive=boost::mpi::packed_iarchive,
+              T=flann::Matrix<float>
+          ]
+  C:\Program Files\boost\boost_1_66_0\boost/mpi/collectives/broadcast.hpp(128): note: zobacz odwołanie do funkcji szablon; wystąpienie „void boost::mpi::detail::broadcast_impl<T>(const boost::mpi::communicator &,T *,int,int,boost::mpl::false_)” jest kompilowane
+          with
+          [
+              T=flann::Matrix<float>
+          ]
+  ConsoleApplication1.cpp(499): note: zobacz odwołanie do funkcji szablon; wystąpienie „void boost::mpi::broadcast<flann::Matrix<float>>(const boost::mpi::communicator &,T &,int)” jest kompilowane
+          with
+          [
+              T=flann::Matrix<float>
+          ]
+C:\Program Files\boost\boost_1_66_0\boost/mpi/detail/binary_buffer_oprimitive.hpp(63): warning C4267: "argument": konwersja z "size_t" do "int", możliwa utrata danych
+  C:\Program Files\boost\boost_1_66_0\boost/serialization/array_wrapper.hpp(75): note: zobacz odwołanie do funkcji szablon; wystąpienie „void boost::mpi::binary_buffer_oprimitive::save_array<T>(const boost::serialization::array_wrapper<T> &,unsigned int)” jest kompilowane
+          with
+          [
+              T=float
+          ]
+  C:\Program Files\boost\boost_1_66_0\boost/serialization/access.hpp(91): note: zobacz odwołanie do funkcji szablon; wystąpienie „void boost::serialization::array_wrapper<T>::save<Archive>(Archive &,const unsigned int) const” jest kompilowane
+          with
+          [
+              T=float,
+              Archive=boost::mpi::packed_oarchive
+          ]
+  C:\Program Files\boost\boost_1_66_0\boost/serialization/access.hpp(91): note: zobacz odwołanie do funkcji szablon; wystąpienie „void boost::serialization::array_wrapper<T>::save<Archive>(Archive &,const unsigned int) const” jest kompilowane
+          with
+          [
+              T=float,
+              Archive=boost::mpi::packed_oarchive
+          ]
+  C:\Program Files\boost\boost_1_66_0\boost/serialization/split_member.hpp(43): note: zobacz odwołanie do funkcji szablon; wystąpienie „void boost::serialization::access::member_save<Archive,const T>(Archive &,T &,const unsigned int)” jest kompilowane
+          with
+          [
+              Archive=boost::mpi::packed_oarchive,
+              T=boost::serialization::array_wrapper<float>
+          ]
+  C:\Program Files\boost\boost_1_66_0\boost/serialization/split_member.hpp(42): note: podczas kompilowania funkcji członkowskiej „<Nieznany>” klasy klasa <Nieznany>
+  C:\Program Files\boost\boost_1_66_0\boost/serialization/split_member.hpp(69): note: zobacz odwołanie do funkcji szablon; wystąpienie „void boost::serialization::detail::member_saver<Archive,T>::invoke(Archive &,const T &,const unsigned int)” jest kompilowane
+          with
+          [
+              Archive=boost::mpi::packed_oarchive,
+              T=boost::serialization::array_wrapper<float>
+          ]
+  C:\Program Files\boost\boost_1_66_0\boost/serialization/split_member.hpp(69): note: zobacz odwołanie do klasy klasa szablon; wystąpienie „boost::serialization::detail::member_saver<Archive,T>” jest kompilowane
+          with
+          [
+              Archive=boost::mpi::packed_oarchive,
+              T=boost::serialization::array_wrapper<float>
+          ]
+  C:\Program Files\boost\boost_1_66_0\boost/serialization/array_wrapper.hpp(68): note: zobacz odwołanie do funkcji szablon; wystąpienie „void boost::serialization::split_member<Archive,boost::serialization::array_wrapper<T>>(Archive &,boost::serialization::array_wrapper<T> &,const unsigned int)” jest kompilowane
+          with
+          [
+              Archive=boost::mpi::packed_oarchive,
+              T=float
+          ]
+  C:\Program Files\boost\boost_1_66_0\boost/serialization/array_wrapper.hpp(93): note: zobacz odwołanie do funkcji szablon; wystąpienie „void boost::serialization::array_wrapper<T>::serialize_optimized<Archive>(Archive &,const unsigned int,boost::mpl::true_)” jest kompilowane
+          with
+          [
+              T=float,
+              Archive=boost::mpi::packed_oarchive
+          ]
+  C:\Program Files\boost\boost_1_66_0\boost/serialization/array_wrapper.hpp(93): note: zobacz odwołanie do funkcji szablon; wystąpienie „void boost::serialization::array_wrapper<T>::serialize_optimized<Archive>(Archive &,const unsigned int,boost::mpl::true_)” jest kompilowane
+          with
+          [
+              T=float,
+              Archive=boost::mpi::packed_oarchive
+          ]
+  C:\Program Files\boost\boost_1_66_0\boost/serialization/access.hpp(116): note: zobacz odwołanie do funkcji szablon; wystąpienie „void boost::serialization::array_wrapper<T>::serialize<Archive>(Archive &,const unsigned int)” jest kompilowane
+          with
+          [
+              T=float,
+              Archive=boost::mpi::packed_oarchive
+          ]
+  C:\Program Files\boost\boost_1_66_0\boost/serialization/access.hpp(116): note: zobacz odwołanie do funkcji szablon; wystąpienie „void boost::serialization::array_wrapper<T>::serialize<Archive>(Archive &,const unsigned int)” jest kompilowane
+          with
+          [
+              T=float,
+              Archive=boost::mpi::packed_oarchive
+          ]
+  C:\Program Files\boost\boost_1_66_0\boost/serialization/serialization.hpp(68): note: zobacz odwołanie do funkcji szablon; wystąpienie „void boost::serialization::access::serialize<Archive,T>(Archive &,T &,const unsigned int)” jest kompilowane
+          with
+          [
+              Archive=boost::mpi::packed_oarchive,
+              T=boost::serialization::array_wrapper<float>
+          ]
+  C:\Program Files\boost\boost_1_66_0\boost/serialization/serialization.hpp(126): note: zobacz odwołanie do funkcji szablon; wystąpienie „void boost::serialization::serialize<Archive,T>(Archive &,T &,const unsigned int)” jest kompilowane
+          with
+          [
+              Archive=boost::mpi::packed_oarchive,
+              T=boost::serialization::array_wrapper<float>
+          ]
+  C:\Program Files\boost\boost_1_66_0\boost/archive/detail/oserializer.hpp(250): note: zobacz odwołanie do funkcji szablon; wystąpienie „void boost::serialization::serialize_adl<Archive,T>(Archive &,T &,const unsigned int)” jest kompilowane
+          with
+          [
+              Archive=boost::mpi::packed_oarchive,
+              T=boost::serialization::array_wrapper<float>
+          ]
+  C:\Program Files\boost\boost_1_66_0\boost/archive/detail/oserializer.hpp(315): note: zobacz odwołanie do funkcji szablon; wystąpienie „void boost::archive::detail::save_non_pointer_type<Archive>::save_only::invoke<T>(Archive &,const T &)” jest kompilowane
+          with
+          [
+              Archive=boost::mpi::packed_oarchive,
+              T=boost::serialization::array_wrapper<float>
+          ]
+  C:\Program Files\boost\boost_1_66_0\boost/archive/detail/oserializer.hpp(315): note: zobacz odwołanie do funkcji szablon; wystąpienie „void boost::archive::detail::save_non_pointer_type<Archive>::save_only::invoke<T>(Archive &,const T &)” jest kompilowane
+          with
+          [
+              Archive=boost::mpi::packed_oarchive,
+              T=boost::serialization::array_wrapper<float>
+          ]
+  C:\Program Files\boost\boost_1_66_0\boost/archive/detail/oserializer.hpp(539): note: zobacz odwołanie do funkcji szablon; wystąpienie „void boost::archive::detail::save_non_pointer_type<Archive>::invoke<const T>(Archive &,const T &)” jest kompilowane
+          with
+          [
+              Archive=boost::mpi::packed_oarchive,
+              T=boost::serialization::array_wrapper<float>
+          ]
+  C:\Program Files\boost\boost_1_66_0\boost/archive/detail/oserializer.hpp(539): note: zobacz odwołanie do funkcji szablon; wystąpienie „void boost::archive::detail::save_non_pointer_type<Archive>::invoke<const T>(Archive &,const T &)” jest kompilowane
+          with
+          [
+              Archive=boost::mpi::packed_oarchive,
+              T=boost::serialization::array_wrapper<float>
+          ]
+  C:\Program Files\boost\boost_1_66_0\boost/archive/detail/common_oarchive.hpp(71): note: zobacz odwołanie do funkcji szablon; wystąpienie „void boost::archive::save<Archive,T>(Archive &,T &)” jest kompilowane
+          with
+          [
+              Archive=boost::mpi::packed_oarchive,
+              T=boost::serialization::array_wrapper<float>
+          ]
+  C:\Program Files\boost\boost_1_66_0\boost/mpi/packed_oarchive.hpp(97): note: zobacz odwołanie do funkcji szablon; wystąpienie „void boost::archive::detail::common_oarchive<boost::mpi::packed_oarchive>::save_override<const T>(T &)” jest kompilowane
+          with
+          [
+              T=boost::serialization::array_wrapper<float>
+          ]
+  C:\Program Files\boost\boost_1_66_0\boost/mpi/packed_oarchive.hpp(97): note: zobacz odwołanie do funkcji szablon; wystąpienie „void boost::archive::detail::common_oarchive<boost::mpi::packed_oarchive>::save_override<const T>(T &)” jest kompilowane
+          with
+          [
+              T=boost::serialization::array_wrapper<float>
+          ]
+  C:\Program Files\boost\boost_1_66_0\boost/mpi/packed_oarchive.hpp(112): note: zobacz odwołanie do funkcji szablon; wystąpienie „void boost::mpi::packed_oarchive::save_override<T>(const T &,boost::mpl::false_)” jest kompilowane
+          with
+          [
+              T=boost::serialization::array_wrapper<float>
+          ]
+  C:\Program Files\boost\boost_1_66_0\boost/archive/detail/interface_oarchive.hpp(70): note: zobacz odwołanie do funkcji szablon; wystąpienie „void boost::mpi::packed_oarchive::save_override<T>(const T &)” jest kompilowane
+          with
+          [
+              T=boost::serialization::array_wrapper<float>
+          ]
+  C:\Program Files\boost\boost_1_66_0\boost/archive/detail/interface_oarchive.hpp(77): note: zobacz odwołanie do funkcji szablon; wystąpienie „Archive &boost::archive::detail::interface_oarchive<Archive>::operator <<<T>(const T &)” jest kompilowane
+          with
+          [
+              Archive=boost::mpi::packed_oarchive,
+              T=boost::serialization::array_wrapper<float>
+          ]
+  C:\Program Files\boost\boost_1_66_0\boost/archive/detail/interface_oarchive.hpp(77): note: zobacz odwołanie do funkcji szablon; wystąpienie „Archive &boost::archive::detail::interface_oarchive<Archive>::operator <<<T>(const T &)” jest kompilowane
+          with
+          [
+              Archive=boost::mpi::packed_oarchive,
+              T=boost::serialization::array_wrapper<float>
+          ]
+  C:\Program Files\flann\include\flann/mpi/matrix.h(47): note: zobacz odwołanie do funkcji szablon; wystąpienie „Archive &boost::archive::detail::interface_oarchive<Archive>::operator &<boost::serialization::array_wrapper<T>>(const boost::serialization::array_wrapper<T> &)” jest kompilowane
+          with
+          [
+              Archive=boost::mpi::packed_oarchive,
+              T=float
+          ]
+  C:\Program Files\flann\include\flann/mpi/matrix.h(47): note: zobacz odwołanie do funkcji szablon; wystąpienie „Archive &boost::archive::detail::interface_oarchive<Archive>::operator &<boost::serialization::array_wrapper<T>>(const boost::serialization::array_wrapper<T> &)” jest kompilowane
+          with
+          [
+              Archive=boost::mpi::packed_oarchive,
+              T=float
+          ]
+  C:\Program Files\boost\boost_1_66_0\boost/serialization/serialization.hpp(126): note: zobacz odwołanie do funkcji szablon; wystąpienie „void boost::serialization::serialize<Archive,float>(Archive &,flann::Matrix<float> &,const unsigned int)” jest kompilowane
+          with
+          [
+              Archive=boost::mpi::packed_oarchive
+          ]
+  C:\Program Files\boost\boost_1_66_0\boost/archive/detail/oserializer.hpp(157): note: zobacz odwołanie do funkcji szablon; wystąpienie „void boost::serialization::serialize_adl<Archive,T>(Archive &,T &,const unsigned int)” jest kompilowane
+          with
+          [
+              Archive=boost::mpi::packed_oarchive,
+              T=flann::Matrix<float>
+          ]
+  C:\Program Files\boost\boost_1_66_0\boost/archive/detail/oserializer.hpp(149): note: podczas kompilowania funkcji członkowskiej „<Nieznany>” klasy klasa <Nieznany>
+  C:\Program Files\boost\boost_1_66_0\boost/archive/detail/oserializer.hpp(263): note: zobacz odwołanie do klasy klasa szablon; wystąpienie „boost::archive::detail::oserializer<Archive,T>” jest kompilowane
+          with
+          [
+              Archive=boost::mpi::packed_oarchive,
+              T=flann::Matrix<float>
+          ]
+  C:\Program Files\boost\boost_1_66_0\boost/archive/detail/oserializer.hpp(315): note: zobacz odwołanie do funkcji szablon; wystąpienie „void boost::archive::detail::save_non_pointer_type<Archive>::save_standard::invoke<T>(Archive &,const T &)” jest kompilowane
+          with
+          [
+              Archive=boost::mpi::packed_oarchive,
+              T=flann::Matrix<float>
+          ]
+  C:\Program Files\boost\boost_1_66_0\boost/archive/detail/oserializer.hpp(315): note: zobacz odwołanie do funkcji szablon; wystąpienie „void boost::archive::detail::save_non_pointer_type<Archive>::save_standard::invoke<T>(Archive &,const T &)” jest kompilowane
+          with
+          [
+              Archive=boost::mpi::packed_oarchive,
+              T=flann::Matrix<float>
+          ]
+  C:\Program Files\boost\boost_1_66_0\boost/archive/detail/oserializer.hpp(539): note: zobacz odwołanie do funkcji szablon; wystąpienie „void boost::archive::detail::save_non_pointer_type<Archive>::invoke<const T>(Archive &,const T &)” jest kompilowane
+          with
+          [
+              Archive=boost::mpi::packed_oarchive,
+              T=flann::Matrix<float>
+          ]
+  C:\Program Files\boost\boost_1_66_0\boost/archive/detail/oserializer.hpp(539): note: zobacz odwołanie do funkcji szablon; wystąpienie „void boost::archive::detail::save_non_pointer_type<Archive>::invoke<const T>(Archive &,const T &)” jest kompilowane
+          with
+          [
+              Archive=boost::mpi::packed_oarchive,
+              T=flann::Matrix<float>
+          ]
+  C:\Program Files\boost\boost_1_66_0\boost/archive/detail/common_oarchive.hpp(71): note: zobacz odwołanie do funkcji szablon; wystąpienie „void boost::archive::save<Archive,T>(Archive &,T &)” jest kompilowane
+          with
+          [
+              Archive=boost::mpi::packed_oarchive,
+              T=flann::Matrix<float>
+          ]
+  C:\Program Files\boost\boost_1_66_0\boost/mpi/packed_oarchive.hpp(97): note: zobacz odwołanie do funkcji szablon; wystąpienie „void boost::archive::detail::common_oarchive<boost::mpi::packed_oarchive>::save_override<const T>(T &)” jest kompilowane
+          with
+          [
+              T=flann::Matrix<float>
+          ]
+  C:\Program Files\boost\boost_1_66_0\boost/mpi/packed_oarchive.hpp(97): note: zobacz odwołanie do funkcji szablon; wystąpienie „void boost::archive::detail::common_oarchive<boost::mpi::packed_oarchive>::save_override<const T>(T &)” jest kompilowane
+          with
+          [
+              T=flann::Matrix<float>
+          ]
+  C:\Program Files\boost\boost_1_66_0\boost/mpi/packed_oarchive.hpp(112): note: zobacz odwołanie do funkcji szablon; wystąpienie „void boost::mpi::packed_oarchive::save_override<T>(const T &,boost::mpl::false_)” jest kompilowane
+          with
+          [
+              T=flann::Matrix<float>
+          ]
+  C:\Program Files\boost\boost_1_66_0\boost/archive/detail/interface_oarchive.hpp(70): note: zobacz odwołanie do funkcji szablon; wystąpienie „void boost::mpi::packed_oarchive::save_override<T>(const T &)” jest kompilowane
+          with
+          [
+              T=flann::Matrix<float>
+          ]
+  C:\Program Files\boost\boost_1_66_0\boost/mpi/collectives/broadcast.hpp(114): note: zobacz odwołanie do funkcji szablon; wystąpienie „Archive &boost::archive::detail::interface_oarchive<Archive>::operator <<<T>(const T &)” jest kompilowane
+          with
+          [
+              Archive=boost::mpi::packed_oarchive,
+              T=flann::Matrix<float>
+          ]
+  C:\Program Files\boost\boost_1_66_0\boost/mpi/collectives/broadcast.hpp(114): note: zobacz odwołanie do funkcji szablon; wystąpienie „Archive &boost::archive::detail::interface_oarchive<Archive>::operator <<<T>(const T &)” jest kompilowane
+          with
+          [
+              Archive=boost::mpi::packed_oarchive,
+              T=flann::Matrix<float>
+          ]
+     Trwa tworzenie biblioteki C:\Users\macie\source\repos\ConsoleApplication1\x64\Release\ConsoleApplication1.lib i obiektu C:\Users\macie\source\repos\ConsoleApplication1\x64\Release\ConsoleApplication1.exp
+  Trwa generowanie kodu
+  70 of 3617 functions ( 1.9%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    78 functions had inline decision re-evaluated but remain unchanged
+  Zakończono generowanie kodu
+  ConsoleApplication1.vcxproj -> C:\Users\macie\source\repos\ConsoleApplication1\x64\Release\ConsoleApplication1.exe
